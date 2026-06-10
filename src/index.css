@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@theme {
+  --color-pink-50: #FAF7F2;
+  --color-pink-100: #E5D1C1;
+  --color-pink-200: #D4AF37;
+  --color-pink-300: #E1B382;
+  --color-pink-400: #2D241E;
+  --color-pink-500: #2D241E;
+  --color-pink-600: #D4AF37;
+  --color-pink-700: #2D241E;
+
+  --color-gold-50: #FAF7F2;
+  --color-gold-100: #F4EDE5;
+  --color-gold-200: #E5D1C1;
+  --color-gold-300: #D4AF37;
+  --color-gold-400: #D4AF37;
+  --color-gold-500: #D4AF37;
+  --color-gold-600: #2D241E;
+  --color-gold-700: #2D241E;
+  
+  --color-cream-50: #FAF7F2;
+  --color-cream-100: #FAF7F2;
+  --color-cream-200: #FAF7F2;
+  --color-cream-300: #FAF7F2;
+
+  --font-serif: "Playfair Display", ui-serif, Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  /* Custom Editorial Theme Variables */
+  --color-editorial-bg: #FAF7F2;
+  --color-editorial-dark: #2D241E;
+  --color-editorial-border: #E5D1C1;
+  --color-editorial-gold: #D4AF37;
+  --color-editorial-secondary: #E1B382;
+  --color-editorial-box: #F4EDE5;
+}

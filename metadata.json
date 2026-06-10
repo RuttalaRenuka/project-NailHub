@@ -1,0 +1,6 @@
+{
+  "name": "NailPolish Services",
+  "description": "A premium, fully responsive, and luxurious business website for NailPolish Services. Features professional services, interactive booking, client portfolio with filtration, pricing packages, testimonials, dark mode support, and interactive contact panels.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
