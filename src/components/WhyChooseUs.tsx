@@ -57,7 +57,7 @@ export default function WhyChooseUs() {
 
           <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl font-medium tracking-tight text-[#2D241E] dark:text-white" id="why-title">
             Why Discerning Clients <br />
-            <span className="italic text-[#E1B382]">Choose NailPolish Services</span>
+            <span className="italic text-[#E1B382]">Choose NailHub</span>
           </h2>
 
           <p className="font-serif italic text-sm text-[#2D241E]/70 dark:text-zinc-400 max-w-lg mx-auto leading-relaxed" id="why-subtitle">

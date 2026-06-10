@@ -42,11 +42,11 @@ export default function Navbar({ isDarkMode, setIsDarkMode }: NavbarProps) {
           {/* Logo */}
           <a href="#" className="flex items-center space-x-2 group-logo" id="nav-logo">
             <div className="w-8 h-8 rounded-full border border-[#D4AF37] flex items-center justify-center text-[10px] tracking-widest text-[#D4AF37] font-semibold transition-transform group-hover:rotate-12 duration-300">
-              NP
+              NH
             </div>
             <div className="flex flex-col">
               <span className="font-serif font-bold text-xs sm:text-sm tracking-[0.3em] text-[#2D241E] dark:text-white uppercase leading-none">
-                NailPolish
+                NailHub
               </span>
               <span className="text-[9px] tracking-[0.35em] mt-0.5 text-[#D4AF37] font-sans font-bold uppercase leading-none">
                 Services

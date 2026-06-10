@@ -7,7 +7,7 @@ export default function FloatingControls() {
   const [isChatOpen, setIsChatOpen] = useState(false);
   const [chatMessage, setChatMessage] = useState('');
   const [chatHistory, setChatHistory] = useState<Array<{ sender: 'user' | 'agent'; text: string }>>([
-    { sender: 'agent', text: 'Hello! 🌸 Welcome to NailPolish Services. How can we pamper you today?' }
+    { sender: 'agent', text: 'Hello! 🌸 Welcome to NailHub. How can we pamper you today?' }
   ]);
 
   useEffect(() => {
@@ -34,7 +34,7 @@ export default function FloatingControls() {
     setTimeout(() => {
       let replyText = "That sounds lovely! Rest assured, we offer that service with certified organic products. Feel free to use our online book form on the page, or tell us your preferred hour to reserve!";
       if (userMsg.toLowerCase().includes('price') || userMsg.toLowerCase().includes('cost')) {
-        replyText = "Our treatments start at just $20 for quick polishes! Complete packages (Basic Care, Premium Beauty, Luxury Spa) range from $45 to $150. You can browse our transparent Price Bundles above!";
+        replyText = "Our treatments start at just ₹900 for quick polishes! Complete packages (Basic Care, Premium Beauty, Luxury Spa) range from ₹2,000 to ₹7,000. You can browse our transparent Price Bundles above!";
       } else if (userMsg.toLowerCase().includes('bridal') || userMsg.toLowerCase().includes('wedding')) {
         replyText = "Congratulations! 🥂 Our Bridal Package includes private champagne, organic scrubs, and custom Swarovski gemstone art. Feel free to enquire about group rates!";
       } else if (userMsg.toLowerCase().includes('hour') || userMsg.toLowerCase().includes('when')) {

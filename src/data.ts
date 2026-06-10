@@ -5,7 +5,7 @@ export const SERVICES_DATA: Service[] = [
     id: 'classic-manicure',
     name: 'Classic Manicure',
     description: 'Nail shaping, cuticle care, hand massage, and professional lacquer application in your choice of shade.',
-    price: '$35',
+    price: '₹1,500',
     iconName: 'Sparkles',
     category: 'Manicure',
     image: 'https://images.unsplash.com/photo-1519014816548-bf5fe059798b?auto=format&fit=crop&q=80&w=600'
@@ -14,7 +14,7 @@ export const SERVICES_DATA: Service[] = [
     id: 'luxury-manicure',
     name: 'Luxury Manicure',
     description: 'An indulgent manicure combining organic exfoliation, paraffin wax treatment, thermal mittens, and standard polish.',
-    price: '$55',
+    price: '₹2,500',
     iconName: 'Crown',
     category: 'Manicure',
     image: 'https://images.unsplash.com/photo-1607779097040-26e80aa78e66?auto=format&fit=crop&q=80&w=600'
@@ -23,7 +23,7 @@ export const SERVICES_DATA: Service[] = [
     id: 'classic-pedicure',
     name: 'Classic Pedicure',
     description: 'Relaxing foot soak, scrub exfoliation, nail trimming, callus smoothing, and professional polish application.',
-    price: '$45',
+    price: '₹2,000',
     iconName: 'Heart',
     category: 'Pedicure',
     image: 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&q=80&w=600'
@@ -32,7 +32,7 @@ export const SERVICES_DATA: Service[] = [
     id: 'gel-extensions',
     name: 'Gel Nail Extensions',
     description: 'Modern non-toxic gel extension overlay customized to your length and shape. Glossy, durable, and natural-looking.',
-    price: '$85',
+    price: '₹4,000',
     iconName: 'Gem',
     category: 'Gel Nails',
     image: 'https://images.unsplash.com/photo-1632345031435-8797b2d58045?auto=format&fit=crop&q=80&w=600'
@@ -41,7 +41,7 @@ export const SERVICES_DATA: Service[] = [
     id: 'acrylic-nails',
     name: 'Acrylic Nails',
     description: 'Full set of premium acrylic nail extensions applied with artisan precision for maximum durability and strength.',
-    price: '$75',
+    price: '₹3,500',
     iconName: 'Layers',
     category: 'Acrylic Nails',
     image: 'https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&q=80&w=600'
@@ -50,7 +50,7 @@ export const SERVICES_DATA: Service[] = [
     id: 'nail-art-custom',
     name: 'Nail Art & Custom Designs',
     description: 'Hand-painted details, chrome, metallic accents, Swarovski crystals, foils, or minimalist geometric custom nail designs.',
-    price: '$25+',
+    price: '₹1,200+',
     iconName: 'Paintbrush',
     category: 'Nail Art',
     image: '/src/assets/images/hero_nail_art_1781080924595.png'
@@ -59,7 +59,7 @@ export const SERVICES_DATA: Service[] = [
     id: 'bridal-package',
     name: 'Bridal Nail Packages',
     description: 'Elegant custom wedding-ready nails featuring intricate lace, pearlescent detailing, and relaxing spa champagne services.',
-    price: '$120+',
+    price: '₹5,500+',
     iconName: 'Gift',
     category: 'Bridal',
     image: '/src/assets/images/bridal_nails_1781080956482.png'
@@ -68,7 +68,7 @@ export const SERVICES_DATA: Service[] = [
     id: 'nail-repair',
     name: 'Nail Repair & Maintenance',
     description: 'Professional repair of cracked or broken nails with silk wrap or gel infills, restoring integrity securely.',
-    price: '$15',
+    price: '₹700',
     iconName: 'CheckCircle',
     category: 'Maintenance',
     image: 'https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&q=80&w=600'
@@ -77,7 +77,7 @@ export const SERVICES_DATA: Service[] = [
     id: 'polish-application',
     name: 'Nail Polish Application',
     description: 'Nail trim, buff, and quick application of long-wear premium lacquer or high-shine hybrid gel polish.',
-    price: '$20',
+    price: '₹900',
     iconName: 'Feather',
     category: 'Polish',
     image: 'https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&q=80&w=600'
@@ -86,7 +86,7 @@ export const SERVICES_DATA: Service[] = [
     id: 'spa-treatments',
     name: 'Spa Treatments',
     description: 'Hydrating clay masks, essential oil hot towel wraps, aromatherapy, and deeply healing extended zone foot and calf massage.',
-    price: '$50',
+    price: '₹2,200',
     iconName: 'Flower2',
     category: 'Spa',
     image: 'https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&q=80&w=600'
@@ -137,7 +137,7 @@ export const TESTIMONIALS_DATA: Testimonial[] = [
     id: 't1',
     name: 'Victoria Hawthorne',
     rating: 5,
-    reviewText: 'NailPolish Services is literally my absolute favorite sanctuary! Elena designed custom nail art for my birthday and they held up perfectly for over 4 weeks without a single chip. Exceptionally hygienic and stunning decor.',
+    reviewText: 'NailHub is literally my absolute favorite sanctuary! Elena designed custom nail art for my birthday and they held up perfectly for over 4 weeks without a single chip. Exceptionally hygienic and stunning decor.',
     image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=200',
     date: 'June 4, 2026',
     service: 'Nail Art & Custom Designs'
@@ -166,7 +166,7 @@ export const PRICING_PACKAGES: PricingPackage[] = [
   {
     id: 'basic-care',
     name: 'Basic Care Package',
-    price: '$45',
+    price: '₹2,000',
     subtitle: 'Essential care for healthy, polished nails',
     features: [
       'Classic Manicure',
@@ -181,7 +181,7 @@ export const PRICING_PACKAGES: PricingPackage[] = [
   {
     id: 'premium-beauty',
     name: 'Premium Beauty Package',
-    price: '$85',
+    price: '₹4,000',
     subtitle: 'Our signature combination for high gloss and stamina',
     features: [
       'Luxury Manicure or Pedicure',
@@ -196,7 +196,7 @@ export const PRICING_PACKAGES: PricingPackage[] = [
   {
     id: 'luxury-spa',
     name: 'Luxury Spa Package',
-    price: '$120',
+    price: '₹5,500',
     subtitle: 'Ultimate relaxation & deep hydration ritual',
     features: [
       'Gold Mineral hand/foot soak',
@@ -211,7 +211,7 @@ export const PRICING_PACKAGES: PricingPackage[] = [
   {
     id: 'bridal',
     name: 'Bridal Package',
-    price: '$150',
+    price: '₹7,000',
     subtitle: 'Elegant perfection for your special wedding day',
     features: [
       'Bridal custom consultation & mockup',

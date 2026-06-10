@@ -41,7 +41,7 @@ export default function About() {
             <div className="relative rounded-none overflow-hidden shadow-sm border border-[#E5D1C1] dark:border-[#2D241E]/60 aspect-[4/3] max-w-[540px] mx-auto z-10">
               <img
                 src="/src/assets/images/about_salon_1781080941250.png"
-                alt="Elite chic interior of NailPolish Services boutique salon"
+                alt="Elite chic interior of NailHub boutique salon"
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"
               />
@@ -81,7 +81,7 @@ export default function About() {
             </h2>
 
             <p className="font-sans text-sm sm:text-base text-[#2D241E]/80 dark:text-zinc-300 leading-relaxed" id="about-intro">
-              Founded in 2018, <strong>NailPolish Services</strong> has grown into an award-winning center for high-fashion manicures, pedicures, and nail structural repairs. We believe nail care is a form of exquisite living — an elegant self-expression designed to enhance confidence and inspire.
+              Founded in 2018, <strong>NailHub</strong> has grown into an award-winning center for high-fashion manicures, pedicures, and nail structural repairs. We believe nail care is a form of exquisite living — an elegant self-expression designed to enhance confidence and inspire.
             </p>
 
             {/* Mission Section */}

@@ -45,7 +45,7 @@ export default function Footer() {
               Instagram Feed
             </span>
             <h3 className="font-serif text-lg sm:text-xl text-white font-medium mt-1">
-              Follow/Tag <span className="italic text-[#E1B382]">@NailPolishServices</span>
+              Follow/Tag <span className="italic text-[#E1B382]">@NailHub</span>
             </h3>
           </div>
           <a
@@ -67,7 +67,7 @@ export default function Footer() {
             >
               <img
                 src={photo.url}
-                alt="Manicure visual from nailpolish services instagram feed"
+                alt="Manicure visual from NailHub instagram feed"
                 className="w-full h-full object-cover transform scale-100 group-hover:scale-105 transition-transform duration-500"
                 referrerPolicy="no-referrer"
               />
@@ -94,7 +94,7 @@ export default function Footer() {
             </span>
             <div className="flex flex-col">
               <span className="font-serif font-black text-lg tracking-[0.1em] text-white uppercase">
-                NailPolish
+                NailHub
               </span>
               <span className="text-[9px] tracking-[0.3em] -mt-1 text-[#D4AF37] font-sans font-medium uppercase">
                 Services
@@ -157,7 +157,7 @@ export default function Footer() {
             Boutique Newsletter
           </h4>
           <p className="font-sans text-xs text-zinc-300 leading-normal max-w-sm">
-            Subscribe to our seasonal beauty journal and secure $10 off your first luxurious paraffin wax manicure session.
+            Subscribe to our seasonal beauty journal and secure a ₹500 discount on your first luxurious paraffin wax manicure session.
           </p>
 
           <AnimatePresence mode="wait">
@@ -196,7 +196,7 @@ export default function Footer() {
 
       {/* 3. Bottom copyright coordinates bar */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row justify-between items-center text-xs text-zinc-400 gap-4" id="footer-bottom-copyright">
-        <p>© 2026 NailPolish Services. Crafted with exquisite precision. All rights reserved.</p>
+        <p>© 2026 NailHub. Crafted with exquisite precision. All rights reserved.</p>
         
         <div className="flex space-x-6 text-zinc-400" id="footer-disclaimers">
           <a href="#" className="hover:text-[#D4AF37] transition-colors">Privacy Policy</a>

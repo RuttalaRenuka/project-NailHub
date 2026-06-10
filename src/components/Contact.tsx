@@ -112,7 +112,7 @@ export default function Contact() {
               <div className="font-sans">
                 <p className="text-[9px] font-bold uppercase tracking-wider text-zinc-400">Email Correspondence</p>
                 <p className="text-sm font-bold text-[#2D241E] dark:text-zinc-100 mt-1 hover:text-[#D4AF37] transition-colors">
-                  <a href="mailto:concierge@nailpolishservices.com">concierge@nailpolishservices.com</a>
+                  <a href="mailto:concierge@nailhub.com">concierge@nailhub.com</a>
                 </p>
               </div>
             </div>
